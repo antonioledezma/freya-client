@@ -1,0 +1,25 @@
+button {
+  transition-property: background-color, color, border-color;
+  transition-duration: 0.5s;
+  background-color: var(--background-tertiary);
+  color: var(--foreground-secundary);
+
+  padding: 8px;
+  margin: 0px;
+
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: var(--background-secondary);
+
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  transition-property: background-color, color, border-color ;
+  transition-duration: 0.5s;
+  background-color: var(--foreground-secondary);
+  color: var(--background-tertiary);
+  border-color: var(--background-secondary);
+}

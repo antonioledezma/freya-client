@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.light-theme {
+  --background-primary: #FFF;
+  --background-secondary: #EEE;
+  --background-tertiary: #DDD;
+  --foreground-primary: #333;
+  --foreground-secondary: #444;
+  --foreground-tertiary: #555;
+  --accent: rgb(0, 150, 219);
+}
+
+.dark-theme {
+  --background-primary: #222;
+  --background-secondary: #333;
+  --background-tertiary: #444;
+  --foreground-primary: #EEE;
+  --foreground-secondary: #DDD;
+  --foreground-tertiary: #CCC;
+  --accent: rgb(0, 150, 219);
+}
+
+* {
+  background-color: transparent;
+  color: var(--foreground-primary);
+}
+
+body {
+  background-color: var(--background-primary);
+}

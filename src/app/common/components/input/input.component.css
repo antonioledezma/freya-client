@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+}
+
+input {
+  transition-property: border-color;
+  transition-duration: 0.5s;
+  
+  background-color: var(--background-primary);
+  color: var(--foreground-secundary);
+
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: var(--background-tertiary);
+
+  outline: none;
+}
+
+input:focus {
+  transition-property: border-color;
+  transition-duration: 0.5s;
+
+  background-color: var(--background-primary);
+  color: var(--foreground-primary);
+
+  padding: 9px;
+
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: var(--accent);
+
+  outline: none;
+}

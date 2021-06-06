@@ -1,0 +1,12 @@
+<div class="container">
+  <form class="target" layout="row" (submit)="onLogin(username.value, password.value)">
+    <div class="inputBox">
+      <app-input placeholder="username" #username></app-input>
+      <app-input placeholder="password" type="password" #password></app-input>
+    </div>
+    <div class="buttonBox">
+      <app-button type="submit">Accept</app-button>
+      <app-button (click)="onCreateUser()">Create Account</app-button>
+    </div>
+  </form>
+</div>

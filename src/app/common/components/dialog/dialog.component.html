@@ -1,0 +1,12 @@
+<div class="container" (click)="onDismiss($event)">
+	<form class="target" (click)="$event.stopPropagation()">
+		<div class="inputBox">
+			<h2 *ngIf="title != undefined"> {{ title }} </h2>
+			<p *ngIf="message != undefined"> {{ message }} </p>
+		</div>
+		<div class="buttonBox">
+			<app-button (click)="onAccept($event)">Accept</app-button>
+			<app-button (click)="onCancel($event)">Cancel</app-button>
+		</div>
+	</form>
+</div>
