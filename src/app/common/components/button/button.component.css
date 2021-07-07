@@ -14,6 +14,8 @@ button {
 
   outline: none;
   cursor: pointer;
+
+  font-size: 1em;
 }
 
 button:hover {
