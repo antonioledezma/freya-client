@@ -18,6 +18,8 @@ input {
   border-width: 1px;
   border-color: var(--background-tertiary);
 
+  font-size: 1em;
+
   outline: none;
 }
 
