@@ -5,6 +5,6 @@ import { UserModel } from "./user.model";
 export interface NoteModel {
   title: string;
   text: string;
-  owner: UserModel;
-  folder: FolderModel;
+  owner: UserModel | undefined;
+  folder: FolderModel | undefined;
 }
