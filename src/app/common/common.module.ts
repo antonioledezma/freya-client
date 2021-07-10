@@ -21,7 +21,7 @@ import { ModalService } from './services/modals/implements/modal.service';
   imports: [
     CommonModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   exports: [
     InputComponent,
